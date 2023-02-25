@@ -1,12 +1,12 @@
+import PostsList from "./features/posts/postsList";
+import AddPostForm from "./features/posts/AddPostForm";
+
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <main className='App'>
+      <AddPostForm />
+      <PostsList />
+    </main>
   );
 }
 
